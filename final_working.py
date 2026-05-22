@@ -7,6 +7,22 @@ from datetime import datetime
 import pytz
 from appclock import show_clocks
 
+
+
+st.markdown("""
+    <style>
+    /* Hide GitHub icon and Fork button */
+    .stAppHeaderActions {
+        display: none;
+    }
+
+    /* Optional: hide Streamlit menu/footer */
+    #root > div:nth-child(1) > div.withScreencast > div > div > div > header > div > div > div.st-emotion-cache-jma0kd.e1yxiy6j5 > div > button > span > span{visibility: visible;}
+    footer {visibility: hidden;}
+    header {visibility: hidden;}
+    </style>
+""", unsafe_allow_html=True)
+
 # =========================================================
 # PAGE CONFIG
 # =========================================================
